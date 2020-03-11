@@ -3,7 +3,8 @@ from ahp_method import AHP
 from matplotlib import pyplot as plt
 
 best_car = AHP(
-    method='',
+    # method can be approximate, geometric or autovalue
+    method='autovalue',
     precision=3,
     alternatives=['Accord Sedan', 'Accord Hybrid', 'Pilot', 'CR-V', 'Element', 'Odyssey'],
     criteria=['cost', 'safety', 'style', 'capacity'],

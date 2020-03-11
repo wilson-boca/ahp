@@ -4,7 +4,8 @@ from ahp_method import AHP
 from matplotlib import pyplot as plt
 
 leader_sample = AHP(
-    method='',
+    # method can be approximate, geometric or autovalue
+    method='autovalue',
     precision=3,
     alternatives=['Tom', 'Dick', 'Harry'],
     criteria=['Experiência', 'Educação', 'Carisma', 'Idade'],
