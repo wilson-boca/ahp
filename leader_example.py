@@ -3,7 +3,7 @@
 from ahp_method import AHP
 from matplotlib import pyplot as plt
 
-managers_sample = AHP(
+leader_sample = AHP(
     method='',
     precision=3,
     alternatives=['Tom', 'Dick', 'Harry'],
@@ -40,7 +40,7 @@ managers_sample = AHP(
     log=True
 )
 
-result = managers_sample.result()
+result = leader_sample.result()
 print('\nRanking: {}'.format(result))
 
 plt.bar(result.keys(), result.values())
