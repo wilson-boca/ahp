@@ -1,8 +1,7 @@
 # coding=UTF-8
-from src.services.ahp_method import AHP
+from ahp_method import AHP
 from matplotlib import pyplot as plt
 
-# https://en.wikipedia.org/wiki/Analytic_hierarchy_process_%E2%80%93_car_example
 best_car = AHP(
     method='',
     precision=3,

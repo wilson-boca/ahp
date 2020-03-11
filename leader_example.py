@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-from src.services.ahp_method import AHP
+from ahp_method import AHP
 from matplotlib import pyplot as plt
 
 managers_sample = AHP(
